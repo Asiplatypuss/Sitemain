@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+.logo{
+    float: left;
+}
+.find{
+    border: 2px solid black;
+    border-top-left-radius:15px 15px;
+    border-bottom-left-radius:15px 15px;
+    height: 34px;
+    width: 318px;
+
+}
+.find1{
+    border: 2px solid black;
+    border-top-right-radius:15px 15px; 
+    border-bottom-right-radius: 15px 15px;
+     height: 39px;
+     width: 39px;
+    background-color: #C2EF31;
+
+     
+}
+form{
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+header img{
+    float: right;
+}
+
+.cart{
+    position: sticky;
+    float: right;
+    top: 300px
+
+}
+main img
