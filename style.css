@@ -8,7 +8,7 @@ body {
     border: 2px solid black;
     border-top-left-radius:15px 15px;
     border-bottom-left-radius:15px 15px;
-    height: 39px;
+    height: 34px;
     width: 318px;
 
 }
@@ -17,7 +17,7 @@ body {
     border-top-right-radius:15px 15px; 
     border-bottom-right-radius: 15px 15px;
      height: 34px;
-     width: 40px;
+     width: 34px;
     background-color: #C2EF31;
 
      
@@ -27,14 +27,32 @@ form{
     align-items: center;
     text-align: center;
 }
-header img{
+span{
     float: right;
+   
+    
+}
+span i{
+     width: 41px;
+    height: 41px;
 }
 
-.cart{
+.floatcart{
     position: sticky;
     float: right;
-    top: 300px
+    top: 200px
+    
+    
 
 }
-main img
+.media{
+    text-align: center; 
+    font-size: 10pt;
+    background-color: #C2EF31;
+   
+}
+footer{
+    background-color: #C2EF31;
+   
+}
+
