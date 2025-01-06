@@ -4,8 +4,10 @@ body {
 .logo{
     float: left;
 }
-.headermenu{
-    margin: auto;
+.header-part-main__inner{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
 
 }    
 
@@ -20,7 +22,9 @@ body {
     width: 318px;
    margin: -4px;
 }
-
+.find1 i{
+    font-size: 20px;
+}
 .find1{
     border-top: 2px solid black;
       border-right: 2px solid black;
@@ -32,7 +36,7 @@ body {
      width: 40px;
     background-color: #c3ef31f4;
     margin: -2px;
-    font-size: 25px;
+    
     
      
 }
@@ -50,7 +54,7 @@ form{
 
       
 }
-span a{
+div a{
     text-decoration: none;
     margin: 5px;
     color:black;
@@ -60,7 +64,7 @@ span a{
 .floatcart{
     position: sticky;
     float: right;
-    top: 140px;
+    top: 200px;
     background-color:  #c3ef31f4;
     border: 1px solid  #c3ef31f4;
     padding: 7px;
@@ -73,6 +77,7 @@ span a{
 .links{
     background-color: #c3ef31f4;
     margin: auto;
+
    
 
 }
@@ -112,3 +117,124 @@ footer a{
 display: inline-block;
    
 }
+
+body {
+    font-family: sans-serif;
+}
+.logo{
+    float: left;
+}
+.header-part-main__inner{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+
+}    
+
+.find{
+     border-top: 2px solid black;
+      border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-right: 2px solid white;
+    border-top-left-radius:15px 15px;
+    border-bottom-left-radius:15px 15px;
+    height: 34px;
+    width: 318px;
+   margin: -4px;
+}
+.find1 i{
+    font-size: 20px;
+}
+.find1{
+    border-top: 2px solid black;
+      border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: 2px solid #c3ef31f4;
+    border-top-right-radius:15px 15px; 
+    border-bottom-right-radius: 15px 15px;
+     height: 34px;
+     width: 40px;
+    background-color: #c3ef31f4;
+    margin: -2px;
+    
+    
+     
+}
+form{
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.menuicon {
+   
+    display: flex;
+    top:5px;
+    font-size: 25px;
+
+      
+}
+div a{
+    text-decoration: none;
+    margin: 5px;
+    color:black;
+    
+}
+
+.floatcart{
+    position: sticky;
+    float: right;
+    top: 200px;
+    background-color:  #c3ef31f4;
+    border: 1px solid  #c3ef31f4;
+    padding: 7px;
+    border-radius:30%;
+    font-size: 25px;
+    padding: 10px;
+    
+
+}
+.links{
+    background-color: #c3ef31f4;
+    margin: auto;
+
+   
+
+}
+.links h1{
+     text-align: center;
+}
+.media{
+    text-align: center; 
+    font-size: 10pt;
+    background-color: #c3ef31f4;
+   
+}
+footer{
+    background-color: #c3ef31f4;
+   display: flex;
+}
+.one{
+    float: left;
+    display: flex;
+    margin: 30px;
+    
+}
+.two{
+    float: left;
+    display: flex;
+    margin: 30px;
+    
+}
+footer img{
+    float: left;
+    display: flex;
+    margin-left:20px ;
+}
+footer a{
+    text-decoration: none;
+    letter-spacing: normal;
+display: inline-block;
+   
+}
+
