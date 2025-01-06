@@ -18,24 +18,26 @@ body {
     border-bottom-left-radius:15px 15px;
     height: 34px;
     width: 318px;
-   margin: -3px;
+   margin: -4px;
 }
 
 .find1{
     border-top: 2px solid black;
       border-right: 2px solid black;
         border-bottom: 2px solid black;
-        border-left: 2px solid #C2EF31;
+        border-left: 2px solid #c3ef31f4;
     border-top-right-radius:15px 15px; 
     border-bottom-right-radius: 15px 15px;
      height: 34px;
      width: 40px;
-    background-color: #C2EF31;
-    margin: -1px;
+    background-color: #c3ef31f4;
+    margin: -2px;
+    font-size: 25px;
+    
      
 }
 form{
-    margin: 10px;
+    margin: 20px;
     align-items: center;
     text-align: center;
 }
@@ -44,6 +46,7 @@ form{
    
     display: flex;
     top:5px;
+    font-size: 25px;
 
       
 }
@@ -58,16 +61,17 @@ span a{
     position: sticky;
     float: right;
     top: 140px;
-    background-color: #C2EF31;
-    border: 1px solid  #C2EF31;
+    background-color:  #c3ef31f4;
+    border: 1px solid  #c3ef31f4;
     padding: 7px;
     border-radius:30%;
-    
+    font-size: 25px;
+    padding: 10px;
     
 
 }
 .links{
-    background-color: #C2EF31;
+    background-color: #c3ef31f4;
     margin: auto;
    
 
@@ -78,11 +82,11 @@ span a{
 .media{
     text-align: center; 
     font-size: 10pt;
-    background-color: #C2EF31;
+    background-color: #c3ef31f4;
    
 }
 footer{
-    background-color: #C2EF31;
+    background-color: #c3ef31f4;
    display: flex;
 }
 .one{
@@ -109,3 +113,4 @@ display: inline-block;
 
     
 }
+
