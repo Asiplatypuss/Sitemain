@@ -4,6 +4,11 @@ body {
 .logo{
     float: left;
 }
+.headermenu{
+    margin: auto;
+
+}    
+
 .find{
      border-top: 2px solid black;
       border-left: 2px solid black;
@@ -14,9 +19,8 @@ body {
     height: 34px;
     width: 318px;
    margin: -3px;
-
-
 }
+
 .find1{
     border-top: 2px solid black;
       border-right: 2px solid black;
@@ -25,34 +29,51 @@ body {
     border-top-right-radius:15px 15px; 
     border-bottom-right-radius: 15px 15px;
      height: 34px;
-     width: 34px;
+     width: 40px;
     background-color: #C2EF31;
     margin: -1px;
-
      
 }
 form{
-    margin: 20px;
+    margin: 10px;
     align-items: center;
     text-align: center;
 }
-span{
-    float: right;
+
+.menuicon {
    
-    
+    display: flex;
+    top:5px;
+
+      
 }
-span i{
-     width: 41px;
-    height: 41px;
+span a{
+    text-decoration: none;
+    margin: 5px;
+    color:black;
+    
 }
 
 .floatcart{
     position: sticky;
     float: right;
-    top: 140px
+    top: 140px;
+    background-color: #C2EF31;
+    border: 1px solid  #C2EF31;
+    padding: 7px;
+    border-radius:30%;
     
     
 
+}
+.links{
+    background-color: #C2EF31;
+    margin: auto;
+   
+
+}
+.links h1{
+     text-align: center;
 }
 .media{
     text-align: center; 
@@ -62,5 +83,30 @@ span i{
 }
 footer{
     background-color: #C2EF31;
-   
+   display: flex;
 }
+.one{
+    float: left;
+    display: flex;
+    margin: 30px;
+    
+}
+.two{
+    float: left;
+    display: flex;
+    margin: 30px;
+    
+}
+footer img{
+    float: left;
+    display: flex;
+    margin-left:20px ;
+}
+footer a{
+    text-decoration: none;
+    letter-spacing: normal;
+display: inline-block;
+
+    
+}
+
