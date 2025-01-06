@@ -5,20 +5,29 @@ body {
     float: left;
 }
 .find{
-    border: 2px solid black;
+     border-top: 2px solid black;
+      border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-right: 2px solid white;
     border-top-left-radius:15px 15px;
     border-bottom-left-radius:15px 15px;
     height: 34px;
     width: 318px;
+   margin: -3px;
+
 
 }
 .find1{
-    border: 2px solid black;
+    border-top: 2px solid black;
+      border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: 2px solid #C2EF31;
     border-top-right-radius:15px 15px; 
     border-bottom-right-radius: 15px 15px;
      height: 34px;
      width: 34px;
     background-color: #C2EF31;
+    margin: -1px;
 
      
 }
