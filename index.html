@@ -1,27 +1,29 @@
 <html>  
 <head>
 <title>WoolenFroglet</title>
-<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <img src="logotitle.jpg"  class="logo"height="139px" width="184px"/>
+  <img src="logotitle.jpg"  class="logo"/>
 
   <form action="/search" method="get" >
     <input type="text" name="q" placeholder="Поиск..." class="find">
     <button type="image" src="" class="find1">Искать</button>
   </form>
 
-  <i class="fi fi-rr-user-volunteer"></i> 
+<span >
+  <i class="fi fi-rr-user-volunteer" ></i> 
   <i class="fi fi-rr-heart" ></i>
   <i class="fi fi-rr-shopping-cart"></i>
+</span>
 
 </header>
 <main>  
-   
-   <i class="fi fi-rr-cart-shopping-fast"></i>
-  
+  <aside class="floatcart">
+      <i class="fi fi-rr-cart-shopping-fast"></i>
+  </aside>
    <i class="fi fi-br-bars-staggered"></i>
    <h1>Woollen Froglet <a href="https://vk.com/woollenfroglet">Vk </a>и <a href="https://t.me/WoollenFroglet">Telegram</a></h1>
 
@@ -34,12 +36,14 @@
 </main>
 <footer>
   <img src="/Лого фигма.png" height="139px" width="194px"/>
-  <article>
+  <article class="one">
+    <p>
     <a href="">О магазине</a>
     <a href="">Оплата/Доставка</a>
     <a href="">Скидки и акции</a>
+    </p>
   </article>
-  <article>
+  <article class="two">
     <a href="">Личный кабинет</a>
     <a href="">Контакты</a>
   </article>
@@ -47,3 +51,5 @@
 </footer>
 </body>
 </html>
+
+
