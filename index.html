@@ -7,19 +7,37 @@
 </head>
 <body>
 <header>
+
+  
   <div class="header-part-main__inner">
-  <img src="logotitle.jpg"  class="logo"  height="139px" width="194px"/>
+  <img src="logotitle.jpg"  class="logo"  height="170px" width="180px"/>
 
   <form action="/search" method="get" >
     <input type="text" name="q" placeholder="Поиск..." class="find">
     <button type="image" src="" class="find1"><i class= "fi fi-rr-search-heart"  height="20px" width="20px" ></i></button>
   </form>
 
-<div class="menuicon">
-<a href=""> <i class="fi fi-rr-user-volunteer" ></i> </a>
-<a href="">  <i class="fi fi-rr-heart" ></i></a>
-<a href=""> <i class="fi fi-rr-shopping-cart"></i></a>
-</div>
+
+  <div class="header__area-controls">
+          
+      <a href=" " class="header__control-btn header__cabinet">
+      <i class="fi fi-rr-user-volunteer" ></i> </a>
+            
+                
+      <a href="" class="header__control-btn header__favorite">
+      <i class="fi fi-rr-heart" ></i>
+      <span class="header__control-bage" data-ui-favorites-counter>0</span>
+      </a>
+          
+        
+     <a href="" class="header__control-btn header__cart">
+     <i class="fi fi-rr-shopping-cart"></i>
+     <span class="header__control-bage" data-cart-positions-count></span>
+     <span class="header__control-text" data-cart-total-price></span>
+     </a>
+          
+
+  </div>
   </div>
 
 </header>
@@ -28,12 +46,17 @@
       <i class="fi fi-rr-cart-shopping-fast"></i>
   </aside>
 
-<div class="links">
-  <span>
-   <i class="fi fi-rr-bars-staggered"></i>
-</span>
+
+ <div class="header__area-catalog">
+          <button type="button" class="button button_size-l header__show-collection-btn js-show-header-collections">
+            <span class="icon icon-bars _show"><i class="fi fi-rr-bars-staggered"></i></span>
+         </button>
+ 
    <h1>Woollen Froglet <a href="https://vk.com/woollenfroglet">Vk </a>и <a href="https://t.me/WoollenFroglet">Telegram</a></h1>
 </div>
+
+
+
   <div class="product">
     <img src="foto1.jpg" height="180px" width="160px"/>
     <img src="Foto2.jpg" height="180px" width="160px"/>
@@ -62,5 +85,4 @@
 </footer>
 </body>
 </html>
-
 
