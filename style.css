@@ -46,7 +46,7 @@ form{
     text-align: center;
 }
 
-.menuicon {
+.header__area-controls {
    
     display: flex;
     top:5px;
@@ -74,14 +74,16 @@ div a{
     
 
 }
-.links{
+.header__area-catalog{
     background-color: #c3ef31f4;
     margin: auto;
 
    
 
 }
-.links h1{
+
+
+.header__area-catalog h1{
      text-align: center;
 }
 .media{
@@ -132,35 +134,36 @@ body {
 }    
 
 .find{
+
      border-top: 2px solid black;
       border-left: 2px solid black;
         border-bottom: 2px solid black;
-        border-right: 2px solid white;
+        border-right: 1px solid  #c3ef31f4;
     border-top-left-radius:15px 15px;
     border-bottom-left-radius:15px 15px;
-    height: 34px;
+    height: 40px;
     width: 318px;
-   margin: -4px;
+   
 }
 .find1 i{
-    font-size: 20px;
+    font-size: 25px;
+    
 }
 .find1{
     border-top: 2px solid black;
       border-right: 2px solid black;
         border-bottom: 2px solid black;
-        border-left: 2px solid #c3ef31f4;
+        border-left: 2 px solid  #c3ef31f4;
     border-top-right-radius:15px 15px; 
     border-bottom-right-radius: 15px 15px;
-     height: 34px;
+     height: 45px;
      width: 40px;
     background-color: #c3ef31f4;
-    margin: -2px;
-    
-    
+        
      
 }
 form{
+    display: flex;
     margin: 20px;
     align-items: center;
     text-align: center;
