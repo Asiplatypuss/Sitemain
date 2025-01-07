@@ -2,30 +2,38 @@
 <html>  
 <head>
 <title>WoolenFroglet</title>
-<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <img src="logotitle.jpg"  class="logo"height="139px" width="184px"/>
+  <div class="header-part-main__inner">
+  <img src="logotitle.jpg"  class="logo"  height="139px" width="194px"/>
 
   <form action="/search" method="get" >
     <input type="text" name="q" placeholder="Поиск..." class="find">
-    <button type="image" src="" class="find1">Искать</button>
+    <button type="image" src="" class="find1"><i class= "fi fi-rr-search-heart"  height="20px" width="20px" ></i></button>
   </form>
 
-  <i class="fi fi-rr-user-volunteer"></i> 
-  <i class="fi fi-rr-heart" ></i>
-  <i class="fi fi-rr-shopping-cart"></i>
+<div class="menuicon">
+<a href=""> <i class="fi fi-rr-user-volunteer" ></i> </a>
+<a href="">  <i class="fi fi-rr-heart" ></i></a>
+<a href=""> <i class="fi fi-rr-shopping-cart"></i></a>
+</div>
+  </div>
 
 </header>
 <main>  
-   
-   <i class="fi fi-rr-cart-shopping-fast"></i>
-  
-   <i class="fi fi-br-bars-staggered"></i>
-   <h1>Woollen Froglet <a href="https://vk.com/woollenfroglet">Vk </a>и <a href="https://t.me/WoollenFroglet">Telegram</a></h1>
+  <aside class="floatcart">
+      <i class="fi fi-rr-cart-shopping-fast"></i>
+  </aside>
 
+<div class="links">
+  <span>
+   <i class="fi fi-rr-bars-staggered"></i>
+</span>
+   <h1>Woollen Froglet <a href="https://vk.com/woollenfroglet">Vk </a>и <a href="https://t.me/WoollenFroglet">Telegram</a></h1>
+</div>
   <div class="product">
     <img src="foto1.jpg" height="180px" width="160px"/>
     <img src="Foto2.jpg" height="180px" width="160px"/>
@@ -34,17 +42,25 @@
 
 </main>
 <footer>
-  <img src="/Лого фигма.png" height="139px" width="194px"/>
-  <article>
+   <img src="/Лого-фигма.jpg" height="139px" width="194px"/>
+  <article class="one">
+    <p>
     <a href="">О магазине</a>
-    <a href="">Оплата/Доставка</a>
+     <br>
+  
+             <a href="">Оплата/Доставка</a> <br>
     <a href="">Скидки и акции</a>
+    </p>
   </article>
-  <article>
-    <a href="">Личный кабинет</a>
+  <article class="two">
+    <p>
+    <a href="">Личный кабинет</a> <br>
     <a href="">Контакты</a>
+    </p>
   </article>
 
 </footer>
 </body>
 </html>
+
+
